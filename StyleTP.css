@@ -50,6 +50,10 @@ body{
 
 /* Header 2 */
 
+.header2{
+    color: #0000008A;
+}
+
 .header2 .item-header2 {
     display: flex;
     align-items: center;
@@ -66,3 +70,5 @@ body{
     font: 14px;
     font-family: sans-serif;
 }
+
+
