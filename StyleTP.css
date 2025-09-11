@@ -6,13 +6,9 @@ body{
 
 /* Header */
 
-/* .item-header1{
-    /* display: flex; */
-    /* justify-content: space-between; */
-    /* background-color: #f5f7f2; */
-    /* width: 100%; */
-    /* font-size: 15px; */
-/* } */
+.item-header1{
+    font-family: sans-serif;
+}
 
 .header .item-header1 .ft1:hover{
     cursor: pointer;
@@ -52,6 +48,7 @@ body{
 
 .header2{
     color: #0000008A;
+    display: flex;
 }
 
 .header2 .item-header2 {
@@ -59,16 +56,17 @@ body{
     align-items: center;
 }
 
-.img-tokped{
+.tokopedia{
     height: 40px;
     margin: 10px 40px 10px 30px;
+    cursor: pointer;
 }
 
 .search-utama {
     display: flex;
     align-items: center;
-    border: 1px solid;
-    border-radius: 5px;
+    border: 0.1px solid;
+    border-radius: 7px;
     padding: 8px 12px;
     width: 900px;
 }
@@ -95,4 +93,45 @@ body{
     font-family: sans-serif;
 }
 
+.aksesoris{
+    width: 1.5px;
+    min-width: 1.5px;
+    height: 24px;
+    background: var(--NN100, #E6E9F0);
+    margin: 0 0 0 24px;
+}
 
+.masuk{
+    height: 32px;
+    padding: 0px 16px;
+    font-weight: 800;
+    border-radius: 8px;
+    font-size: 12px;
+    background: var(--NN0, #FFFFFF);
+    color: var(--GN500, #00AA5B);
+    cursor: pointer;
+    border: 1px solid var(--GN500, #00AA5B);
+    font-weight: 700;
+}
+
+.daftar{
+    height: 32px;
+    color: var(--NN0, #FFFFFF);
+    padding: 0px 16px;
+    font-weight: 800;
+    border-radius: 8px;
+    font-size: 12px;
+    background: var(--GN500, #00AA5B);
+    cursor: pointer;
+    border: none;
+}
+
+.lokasi{
+    align-items: center;
+    justify-content: flex-end;
+    background-color: var(--NN0, #FFFFFF);
+}
+
+.kalimat1{
+    font-family: "Open Sauce One";
+}
