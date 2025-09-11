@@ -38,14 +38,14 @@ body{
 /* } */ 
 
 
-/* .ft2{
-    display: flex;
-    align-items: center;
-} */
+.ft2{
+    font-weight: 400;
+    color: #656c7b;
+    font-family: sans-serif;
+}
 
 .tp-1{
     margin-right: 27px;
-    color: #929292;
 }
 
 /* Header 2 */
@@ -62,6 +62,30 @@ body{
 .img-tokped{
     height: 40px;
     margin: 10px 40px 10px 30px;
+}
+
+.search-utama {
+    display: flex;
+    align-items: center;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 8px 12px;
+    width: 900px;
+}
+
+.search-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+.search-input {
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
 }
 
 .item-header2 li{
