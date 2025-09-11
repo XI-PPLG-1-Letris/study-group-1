@@ -21,6 +21,10 @@ body{
 
 /* Header 2 */
 
+.header2{
+    color: #0000008A;
+}
+
 .header2 .item-header2 {
     display: flex;
     align-items: center;
@@ -38,6 +42,7 @@ body{
     font-family: sans-serif;
 }
 
+<<<<<<< HEAD
 .search-tp{
     
 }
@@ -45,3 +50,6 @@ body{
 .lol{
     color: red;
 }
+=======
+
+>>>>>>> b411f9c66200b124ef52a7c7e7fc547e013bf260
