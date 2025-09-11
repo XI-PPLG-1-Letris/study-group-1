@@ -4,6 +4,12 @@ body{
     padding: 0px;
 }
 
+img{
+    border-style: none;
+}
+
+/* HEADER 1 */
+
 .header .item-header1 .ft1:hover{
     cursor: pointer;
     color: #03ac0e;
@@ -110,6 +116,42 @@ body{
     font-family: sans-serif;
 }
 
-.content-1{
-    height: 290px;
+/* BODY CONTENT */
+
+.gambar{
+    display: grid;
+    grid-template-columns: repeat(0, 1fr);
+    grid-template-rows: repeat(0, 1fr);
+    gap: 8px;   
 }
+
+.gambar-1{
+    grid-column: span 3 / span 3;
+    grid-row: span 2 / span 3;
+    grid-column-start: 1;
+    grid-row-start: 2;
+}
+
+.content-1{
+    height: 300px;
+    margin-left: 10.5%;
+    border-radius: 10px;
+    margin-top: 2%;
+}
+
+.link1{
+    font-family: sans-serif;
+    background: #080808;
+    color: #FFFFFF;
+    font-size: 10px;
+    border-radius: 4px;
+    padding: 3.5px 8px;
+    margin-top: 19.5%;
+    margin-left: 81%;
+    position: absolute;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    outline: none;
+}
+
