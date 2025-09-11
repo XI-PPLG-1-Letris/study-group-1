@@ -4,6 +4,15 @@ body{
     padding: 0px;
 }
 
+<<<<<<< HEAD
+=======
+/* Header */
+
+.item-header1{
+    font-family: sans-serif;
+}
+
+>>>>>>> cd0c6159fec6b11939e1860e0cdefbbfbacc2790
 .header .item-header1 .ft1:hover{
     cursor: pointer;
     color: #03ac0e;
@@ -14,15 +23,38 @@ body{
     color: #03ac0e;
 }
 
+<<<<<<< HEAD
+=======
+/* .ft1{
+    display: flex;
+    align-items: center;
+} */
+
+/* .tp1{
+    /* height: 23px; */
+    /* margin-left: 22px;
+    margin-right: 9px;
+    margin-top: 3px;
+    margin-bottom: 4px; */
+/* } */ 
+
+
+.ft2{
+    font-weight: 400;
+    color: #656c7b;
+    font-family: sans-serif;
+}
+
+>>>>>>> cd0c6159fec6b11939e1860e0cdefbbfbacc2790
 .tp-1{
     margin-right: 27px;
-    color: #929292;
 }
 
 /* Header 2 */
 
 .header2{
     color: #0000008A;
+    display: flex;
 }
 
 .header2 .item-header2 {
@@ -30,9 +62,34 @@ body{
     align-items: center;
 }
 
-.img-tokped{
+.tokopedia{
     height: 40px;
     margin: 10px 40px 10px 30px;
+    cursor: pointer;
+}
+
+.search-utama {
+    display: flex;
+    align-items: center;
+    border: 0.1px solid;
+    border-radius: 7px;
+    padding: 8px 12px;
+    width: 900px;
+}
+
+.search-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+.search-input {
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
 }
 
 .item-header2 li{
@@ -42,6 +99,7 @@ body{
     font-family: sans-serif;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 .search-tp{
     
@@ -53,3 +111,47 @@ body{
 =======
 
 >>>>>>> b411f9c66200b124ef52a7c7e7fc547e013bf260
+=======
+.aksesoris{
+    width: 1.5px;
+    min-width: 1.5px;
+    height: 24px;
+    background: var(--NN100, #E6E9F0);
+    margin: 0 0 0 24px;
+}
+
+.masuk{
+    height: 32px;
+    padding: 0px 16px;
+    font-weight: 800;
+    border-radius: 8px;
+    font-size: 12px;
+    background: var(--NN0, #FFFFFF);
+    color: var(--GN500, #00AA5B);
+    cursor: pointer;
+    border: 1px solid var(--GN500, #00AA5B);
+    font-weight: 700;
+}
+
+.daftar{
+    height: 32px;
+    color: var(--NN0, #FFFFFF);
+    padding: 0px 16px;
+    font-weight: 800;
+    border-radius: 8px;
+    font-size: 12px;
+    background: var(--GN500, #00AA5B);
+    cursor: pointer;
+    border: none;
+}
+
+.lokasi{
+    align-items: center;
+    justify-content: flex-end;
+    background-color: var(--NN0, #FFFFFF);
+}
+
+.kalimat1{
+    font-family: "Open Sauce One";
+}
+>>>>>>> cd0c6159fec6b11939e1860e0cdefbbfbacc2790
