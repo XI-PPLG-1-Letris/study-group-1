@@ -107,11 +107,9 @@ body{
 }
 
 .kalimat1{
-    font-family: "Open Sauce One";
+    font-family: sans-serif;
 }
 
 .content-1{
     height: 290px;
-    margin-top: 30px;
-    margin-left: 7%;
 }
