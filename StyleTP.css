@@ -10,6 +10,14 @@ img{
 
 /* HEADER 1 */
 
+.header .item-header1 .ft1{
+    color: #656c7b;
+}
+
+.header .item-header1 .ft2 .tp-1{
+    color: #656c7b;
+}
+
 .header .item-header1 .ft1:hover{
     cursor: pointer;
     color: #03ac0e;
@@ -173,6 +181,9 @@ h2{
     padding: 16px;
     margin-bottom: 24px;
     border-radius: 12px;
+    margin-left: 160px;
+    margin-right: 173px;
+    margin-top: 20px;
 }
 
 .kategori{
@@ -183,19 +194,22 @@ h2{
     font-family: "Open Sauce One", sans-serif;
     text-align: left;
     margin: 0px;
-    font-size: 1.42857rem;
+    margin-bottom: 20px;
+    font-size: 22px;
     line-height: 26px;
 }
 
 .gambar-2{
     width: 100%;
-    padding: 0px 8px;
+    padding: 0px 1px;
     line-height: normal;
     flex-shrink: 0;
 }
 
 .image2{
-    box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.12);
+    box-shadow: 0 0px 2px 0 rgba(0, 0, 0, 0.12);
+    margin-right: 20px;
+    border-radius: 12px;
 }
 
 .tagihan{
@@ -206,7 +220,7 @@ h2{
     font-family: "Open Sauce One", sans-serif;
     text-align: left;
     margin: 0px;
-    font-size: 1.42857rem;
+    font-size: 20px;
     line-height: 26px;
 }
 
@@ -218,5 +232,11 @@ h2{
     font-size: 14px;
     letter-spacing: 0px;
     line-height: 28px;
+}
+
+.pulsa{
+    box-shadow: 0 0px 2px 0 rgba(0, 0, 0, 0.12);
+    border-radius: 12px;
+    margin-top: 10px;
 }
 
