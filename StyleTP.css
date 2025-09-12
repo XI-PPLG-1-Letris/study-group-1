@@ -155,3 +155,68 @@ img{
     outline: none;
 }
 
+h2{
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+
+.konten2{
+    position: relative;
+    box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.12);
+    background-color: var(--NN0, #FFFFFF);
+    padding: 16px;
+    margin-bottom: 24px;
+    border-radius: 12px;
+}
+
+.kategori{
+    flex: 1 1 auto;
+    font-weight: 700;
+    font-stretch: normal;
+    font-style: normal;
+    font-family: "Open Sauce One", sans-serif;
+    text-align: left;
+    margin: 0px;
+    font-size: 1.42857rem;
+    line-height: 26px;
+}
+
+.gambar-2{
+    width: 100%;
+    padding: 0px 8px;
+    line-height: normal;
+    flex-shrink: 0;
+}
+
+.image2{
+    box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.12);
+}
+
+.tagihan{
+    flex: 1 1 auto;
+    font-weight: 700;
+    font-stretch: normal;
+    font-style: normal;
+    font-family: "Open Sauce One", sans-serif;
+    text-align: left;
+    margin: 0px;
+    font-size: 1.42857rem;
+    line-height: 26px;
+}
+
+.link2{
+    font-weight: bold;
+    color: var(--GN500, #00AA5B);
+    align-items: center;
+    padding-left: 8px;
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 28px;
+}
+
