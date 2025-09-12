@@ -4,16 +4,6 @@ body{
     padding: 0px;
 }
 
-/* Header */
-
-/* .item-header1{
-    /* display: flex; */
-    /* justify-content: space-between; */
-    /* background-color: #f5f7f2; */
-    /* width: 100%; */
-    /* font-size: 15px; */
-/* } */
-
 .header .item-header1 .ft1:hover{
     cursor: pointer;
     color: #03ac0e;
@@ -24,40 +14,50 @@ body{
     color: #03ac0e;
 }
 
-/* .ft1{
-    display: flex;
-    align-items: center;
-} */
-
-/* .tp1{
-    /* height: 23px; */
-    /* margin-left: 22px;
-    margin-right: 9px;
-    margin-top: 3px;
-    margin-bottom: 4px; */
-/* } */ 
-
-
-/* .ft2{
-    display: flex;
-    align-items: center;
-} */
-
 .tp-1{
     margin-right: 27px;
-    color: #929292;
 }
 
 /* Header 2 */
+
+.header2{
+    color: #0000008A;
+    display: flex;
+}
 
 .header2 .item-header2 {
     display: flex;
     align-items: center;
 }
 
-.img-tokped{
+.tokopedia{
     height: 40px;
     margin: 10px 40px 10px 30px;
+    cursor: pointer;
+}
+
+.search-utama {
+    display: flex;
+    align-items: center;
+    border: 0.1px solid;
+    border-radius: 7px;
+    padding: 8px 12px;
+    width: 900px;
+}
+
+.search-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+.search-input {
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
 }
 
 .item-header2 li{
@@ -66,3 +66,88 @@ body{
     font: 14px;
     font-family: sans-serif;
 }
+
+.aksesoris{
+    width: 1.5px;
+    min-width: 1.5px;
+    height: 24px;
+    background: var(--NN100, #E6E9F0);
+    margin: 0 0 0 24px;
+}
+
+.masuk{
+    height: 32px;
+    padding: 0px 16px;
+    font-weight: 800;
+    border-radius: 8px;
+    font-size: 12px;
+    background: var(--NN0, #FFFFFF);
+    color: var(--GN500, #00AA5B);
+    cursor: pointer;
+    border: 1px solid var(--GN500, #00AA5B);
+    font-weight: 700;
+}
+
+.daftar{
+    height: 32px;
+    color: var(--NN0, #FFFFFF);
+    padding: 0px 16px;
+    font-weight: 800;
+    border-radius: 8px;
+    font-size: 12px;
+    background: var(--GN500, #00AA5B);
+    cursor: pointer;
+    border: none;
+}
+
+.lokasi{
+    align-items: center;
+    justify-content: flex-end;
+    background-color: var(--NN0, #FFFFFF);
+}
+
+.kalimat1{
+    font-family: "Open Sauce One";
+}
+
+.content-1{
+    height: 290px;
+    margin-top: 30px;
+    margin-left: 7%;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background: #fff;
+}
+/* ini */
+.tabs {
+  display: flex;
+  border-bottom: 2px solid #e0e0e0; /* garis bawah */
+  margin-bottom: 10px;
+  padding: 100ox;
+}
+
+.tab {
+  flex: 1;
+  padding: 10px;
+  background: none;
+  border: none;
+  font-size: 16px;
+  margin-right: 20px;
+  cursor: pointer;
+  color: #333;
+  border-bottom: 3px solid transparent;
+  transition: 0.3s;
+}
+
+.tab:hover {
+  color: #00a000;
+}
+
+.tab.active {
+  font-weight: bold;
+  color: #00a000;              
+  border-bottom: 3px solid #00a000; 
+  }
