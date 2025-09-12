@@ -4,6 +4,10 @@ body{
     padding: 0px;
 }
 
+html{
+    background: #FFFFFF;
+}
+
 img{
     border-style: none;
 }
@@ -237,6 +241,29 @@ h2{
 .pulsa{
     box-shadow: 0 0px 2px 0 rgba(0, 0, 0, 0.12);
     border-radius: 12px;
-    margin-top: 10px;
+    margin-top: 49px;
+    margin-left: 10px;
+    border: 0.5px;
+    padding-top: 10px;
+    padding-left: 25px;
+    padding-bottom: 20px;
+    padding-right: 25px;
 }
+
+.pulsa p{
+    text-decoration-line: underline;
+}
+
+.pulsa .tombol1{
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 500;
+    color: #656c7b;
+    text-align: center;
+    font-family: "Open Sauce One", "Nunito Sans", -apple-system, sans-serif;
+    text-decoration: underline;
+    
+}
+
+
 
