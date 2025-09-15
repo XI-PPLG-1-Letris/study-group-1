@@ -526,7 +526,7 @@ h2{
     flex-wrap: wrap;
 }
 
-.card {
+.card{
     cursor: pointer;
     width: 194px;
     background: #fff;
