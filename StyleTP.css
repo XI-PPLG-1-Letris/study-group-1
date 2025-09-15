@@ -493,5 +493,16 @@ h2{
 
 .bayar{
     font-size: 21px;
-    margin-left: 160px;
+}
+
+.Content1{
+    margin-left: 161px;
+    padding: 0px;
+    border-color: var(--NN200, #CFD5E1);
+    background-color: var(--NN0, #FFFFFF);
+    cursor: default;
+    position: relative;
+    display: block;
+    border-radius: 0px;
+    box-shadow: none;
 }
