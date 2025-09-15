@@ -494,16 +494,19 @@ h2{
 
 .tab-container {
       display: flex;
-      gap: 10px;;
+      justify-content: flex-start;
+      gap: 8px;
+      margin-bottom: 10px;
     }
 
     .tab-button {
-      padding: 10px 20px;
+      padding: 8px 15px;
       border-radius: 20px;
-      margin-left: 50px;
+      margin-left: 40px;
       border: 1px solid #03ac0e;
       background: white;
       color: #03ac0e;
+
       font-weight: bold;
     }
 
