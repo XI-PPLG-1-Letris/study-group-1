@@ -491,9 +491,6 @@ h2{
     cursor: pointer;
 }
 
-.bayar{
-    font-size: 21px;
-}
 
 .Content1{
     margin-left: 161px;
@@ -505,4 +502,22 @@ h2{
     display: block;
     border-radius: 0px;
     box-shadow: none;
+}
+
+.bayar{
+    font-size: 21px;
+}
+
+.Content1 .Content2{
+    white-space: nowrap;
+    line-height: 0;
+    overflow: hidden;
+    padding-left: 0px;
+    padding-right: 83.3333%;
+    display: flex;
+    box-shadow: 0 0px 2px 0px rgba(0, 0, 0, 0.12);
+}
+
+.Content2{
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 4px;
 }
