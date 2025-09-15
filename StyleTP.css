@@ -491,33 +491,111 @@ h2{
     cursor: pointer;
 }
 
+/* CONTENT - 2 */
 
-.Content1{
-    margin-left: 161px;
-    padding: 0px;
-    border-color: var(--NN200, #CFD5E1);
-    background-color: var(--NN0, #FFFFFF);
-    cursor: default;
-    position: relative;
-    display: block;
-    border-radius: 0px;
-    box-shadow: none;
+.KONTEN2{
+    border-top: 8px solid #f0f1f3;
 }
 
-.bayar{
-    font-size: 21px;
-}
-
-.Content1 .Content2{
-    white-space: nowrap;
-    line-height: 0;
-    overflow: hidden;
-    padding-left: 0px;
-    padding-right: 83.3333%;
+.tab-container {
     display: flex;
-    box-shadow: 0 0px 2px 0px rgba(0, 0, 0, 0.12);
+    margin-top: 45px;
+    margin-left: 73px;
+    justify-content: flex-start;
+    margin-bottom: 10px;
 }
 
-.Content2{
-    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 4px;
+.tab-button {
+    margin-left: 80px;
+    background: white;
+    color: #03ac0e;
+    font-weight: bold;
+}
+.tab-button1 {
+    margin-left: 40px;
+    background: white;
+    color: #03ac0e;
+    font-weight: bold;
+}
+
+.contrainer-card {
+    margin-left: 153px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.card {
+    cursor: pointer;
+    width: 194px;
+    background: #fff;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    position: relative;
+}
+
+.card img {
+    width: 100%;
+    display: block;
+}
+
+.discount {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: #e53935;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 4px 6px;
+    border-radius: 4px;
+}
+
+.card-content {
+    padding: 10px;
+}
+
+.card-title {
+    font-size: 14px;
+    color: var(--color-primary);
+    line-height: 1.4;
+}
+
+.price {
+    font-size: 16px;
+    font-weight: bold;
+    
+}
+
+.pengirim{
+    color: rgb(255, 127, 23);
+    height: 11px;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 12px;
+    letter-spacing: .1px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.rating{
+    font-size: 12px;
+    color: #777;
+    margin-bottom: 5px;
+}
+
+.rating span {
+    color: #fbc02d;
+    font-size: 14px;
+}
+
+.store {
+    font-size: 12px;
+    color: #555;
 }
