@@ -492,6 +492,10 @@ h2{
     cursor: pointer;
 }
 
+.section{
+    display: flex;
+}
+
 /* CONTENT - 2 */
 
 .KONTEN2{
