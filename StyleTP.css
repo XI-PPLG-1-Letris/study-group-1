@@ -492,6 +492,10 @@ h2{
     cursor: pointer;
 }
 
+.section {
+    display: flex;
+}
+
 .tab-container {
       display: flex;
       justify-content: flex-start;
@@ -510,15 +514,7 @@ h2{
       font-weight: bold;
     }
 
-    /* body {
-      font-family: Arial, sans-serif;
-      background: #f5f5f5;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      min-height: 100vh;
-    } */
-
+    
     .card {
       width: 220px;
       background: #fff;
