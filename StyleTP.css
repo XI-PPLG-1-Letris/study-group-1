@@ -491,39 +491,90 @@ h2{
     cursor: pointer;
 }
 
+.bayar{
+    flex: 1 1 auto;
+    font-size: 20px;
+    font-weight: 700;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 37.71px;
+    font-family: sans-serif;
+    letter-spacing: normal;
+    text-align: left;
+    color: var(--NN950, #080808);
+    overflow: hidden;
+    overflow-wrap: break-word;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin: 0px;
+    margin-left: 160px;
+}
+
 /* CONTENT - 2 */
 
 .KONTEN2{
     border-top: 8px solid #f0f1f3;
 }
 
-.tab-container {
+.tab-container{
     display: flex;
     margin-top: 45px;
     margin-left: 73px;
     justify-content: flex-start;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
-.tab-button {
+.tab-button{
     margin-left: 80px;
     background: white;
     color: #03ac0e;
     font-weight: bold;
+    border-bottom: 1px solid;
+    cursor: pointer;
 }
-.tab-button1 {
+
+.tab-button1{
     margin-left: 40px;
     background: white;
+    /* color: #03ac0e; */
+    font-weight: 400;
+    border-bottom: 1px solid;
+    cursor: pointer;
+}
+
+.tab-button1:hover{
     color: #03ac0e;
     font-weight: bold;
 }
 
-.contrainer-card {
+.contrainer-card-0{
     margin-left: 153px;
     display: flex;
     justify-content: flex-start;
     gap: 10px;
     flex-wrap: wrap;
+}
+
+.contrainer-card{
+    margin-left: 153px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.card-0{
+    cursor: pointer;
+    width: 194px;
+    background: #fff;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    position: relative;
+    margin-bottom: 20px;
 }
 
 .card{
@@ -535,16 +586,16 @@ h2{
     text-overflow: ellipsis;
     border-radius: 10px;
     overflow: hidden;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    /* box-shadow: 0 2px 8px rgba(0,0,0,0.1); */
     position: relative;
 }
 
-.card img {
+.card img{
     width: 100%;
     display: block;
 }
 
-.discount {
+.discount{
     position: absolute;
     top: 10px;
     left: 10px;
@@ -556,20 +607,38 @@ h2{
     border-radius: 4px;
 }
 
-.card-content {
+.discount-0{
+    top: 10px;
+    left: 10px;
+    color: #e53935;
+    line-height: 13px;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 4px 6px;
+    border-radius: 4px;
+}
+
+.card-content{
     padding: 10px;
 }
 
-.card-title {
+.card-title{
     font-size: 14px;
     color: var(--color-primary);
     line-height: 1.4;
 }
 
-.price {
+.price{
     font-size: 16px;
     font-weight: bold;
-    
+}
+
+.potongan{
+    font-size: 11px;
+    color: #b3b8c3;
+    display: flex;
+    line-height: 20px;
+    text-decoration: line-through;
 }
 
 .pengirim{
@@ -590,12 +659,44 @@ h2{
     margin-bottom: 5px;
 }
 
-.rating span {
+.rating span{
     color: #fbc02d;
     font-size: 14px;
 }
 
-.store {
+.store{
     font-size: 12px;
     color: #555;
+}
+
+.tombol2{
+    border: none;
+    background: transparent;
+    width: 16px;
+    height: 16px;
+    display: flex;
+    margin-left: 160px;
+    align-items: center;
+    justify-content: end;
+    cursor: pointer;
+}
+
+.tombol3{
+    background-color: var(--NN0, #FFFFFF);
+    border: 1px solid var(--GN500, #00AA5B);
+    border-radius: 8px;
+    color: var(--GN500, #00AA5B);
+    cursor: pointer;
+    display: inline-block;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 17.5px;
+    height: 48px;
+    line-height: 22px;
+    outline: none;
+    position: relative;
+    padding: 0px 16px;
+    text-indent: initial;
+    transition: background-color 300ms;
+    width: 320px;
 }
