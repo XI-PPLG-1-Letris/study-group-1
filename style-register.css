@@ -1,0 +1,230 @@
+body{
+    font-family: 'Open Sauce One', sans-serif;
+    font-weight: 400;
+}
+
+a{
+    cursor: pointer;
+}
+
+.content{
+    position: relative;
+    gap: 130px;
+    display: flex;
+    margin-top: 70px;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+/* REGISTER */
+
+.content .icon .title{
+    font-size: 21px;
+    font-weight: 600;
+    color: rgb(var(--NN950, 33, 33, 33));
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-bottom: 1px;
+}
+
+.content .icon .description{
+    margin-top: 5px;
+    font-size: 14.86px;
+    line-height: 22px;
+    color: rgb(var(--NN600, 109, 117, 136));
+    white-space: pre-line;
+}
+
+.register-page{
+    border: 1px solid rgb(var(--NN50, 240, 243, 247));
+    border-radius: 3px;
+    box-shadow: 0 0 10px 0 rgb(var(--NN100, 228, 235, 245));
+    padding: 24px 36px 32px;
+    width: 400px;
+    min-height: 400px;
+}
+
+.daftar .title{
+    font-size: 25.14px;
+    font-weight: 700;
+    color: rgb(var(--NN800, 64, 68, 78));
+    margin: 0;
+}
+
+.daftar .desc{
+    font-size: 15.5px;
+}
+
+/* LOGIN GOOGLE */
+
+.google{
+    padding: 0;
+    display: block;
+    width: 100%;
+}
+
+.google .google-login{
+    cursor: pointer;
+    border: 1px solid;
+    border-radius: 8px;
+    border-color: rgb(var(--NN300, 191, 201, 217));
+    background: rgb(var(--NN0, 255, 255, 255));
+    color: rgb(var(--NN600, 109, 117, 136));
+}
+
+.google .google-login .title{
+    display: flex;
+    margin-left:105px;
+    margin-right:115px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    white-space: nowrap;
+    gap: 4px;
+    color: rgb(var(--NN600, 109, 117, 136));
+    font-weight: 700;
+}
+
+.google .google-login .desc{
+    display: block;
+    position: relative;
+    overflow: hidden;
+    width: 24px;
+    height: 24px;
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    width: 24px;
+    height: 24px;
+}
+
+/* atau */
+
+.atau-0 {
+    font-size: 13.71px;
+    margin: 24px 0;
+    display: flex;
+    align-items: center;
+    color: rgb(var(--NN600, 109, 117, 136));
+}
+
+.atau-0 .garis{
+    display: inline-block;
+    width: 100%;
+    border-bottom: 1px solid rgb(var(--NN200, 214, 223, 235));
+}
+
+.atau-0 .atau{
+    text-align: center;
+    padding: 0 16px;
+    white-space: nowrap;
+}
+
+/* PENDAFTARAN */
+
+.pendaftaran .hp-email{
+    outline: none;
+    border: 1px solid;
+    border-color: rgb(var(--NN300, 191, 201, 217));
+    border-radius: 8px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 148.5px;
+    color: #aeaeae;
+    display: flex;
+    position: relative;
+    align-items: center;
+    gap: 8px;
+    font-size: 13.5px;
+}
+
+.sample{
+    color: #898989;
+    display: flex;
+    margin: 2px 12px 0px;
+    gap: 16px;
+    font-size: 0.75rem;
+    line-height: 1.5;
+}
+
+/* TOMBOL DAFTAR */
+
+.tbl{
+    outline: none;
+    text-decoration: none;
+    font-weight: bold;
+    position: relative;
+    background-color: var(--NN50, #e5e9ec);
+    /* border: 1px solid rgb(var(--GN500, 0, 170, 91)); */
+    padding-left: 140px;
+    padding-right: 141px;
+    font-size: 1rem;
+    border-radius: 8px;
+    height: 48px;
+    margin-top: 24px;
+}
+
+.tbl span{
+    background-color: transparent;
+    color: #656C7B;
+}
+
+/* INFORMATION */
+
+.information{
+    font-size: 12.5px;
+    line-height: 18px;
+    text-align: center;
+    margin-top: 16px;
+}
+
+.information .link{
+    color: rgb(var(--GN500, 0, 170, 91));
+    font-weight: 600;
+}
+
+/* FOOTER */
+
+.footer{
+    margin-top: 120px;
+    font-size: 1rem;
+    line-height: 22px;
+    color: rgb(var(--NN600, 109, 117, 136));
+    padding: 15px 0 30px;
+    text-align: center;
+}
+
+.footer .desc{
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    min-width: 960px;
+}
+
+@media (min-width: 1200px) {
+    .footer .desc {
+        width: 1190px;
+    }
+}
+
+.footer .desc span{
+    text-align: center;
+    font-size: 1rem;
+    line-height: 22px;
+    color: rgb(var(--NN600, 109, 117, 136));
+}
+
+.footer .desc .link1{
+    margin-left: 10px;
+    line-height: 1.2;
+    padding-left: 14px;
+    border-left: 1px solid rgb(var(--NN50, 240, 243, 247));
+}
+
+.footer .desc .link1 a{
+    color: rgb(var(--GN500, 0, 170, 91));
+    font-weight: bold;
+}
